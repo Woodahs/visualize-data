@@ -1,0 +1,25 @@
+.ad-dashboard {
+    .ad-dashboard__info {
+        border: 1px solid #ccc;
+        padding: 12px 10px;
+    }
+
+    .ad-dashboard__main {
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .ad-dashboard__filters {
+        width: 30%;
+        margin-right: 10px;
+        border: 1px solid #ccc;
+        background: #E8F5FE;
+        padding: 12px 10px;
+    }
+
+    .ad-dashboard__chart {
+        flex: 1;
+        border: 1px solid #ccc;
+        padding: 12px 10px;
+    }
+}
