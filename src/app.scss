@@ -1,0 +1,10 @@
+@import "app/modules/ad-dashboard/ad-dashboard";
+@import "app/modules/ad-dashboard/info/ad-dashboard-info";
+
+.app {
+    .app__container {
+        margin: 10px auto;
+        max-width: 1200px;
+        padding: 0 10px;
+    }
+}
