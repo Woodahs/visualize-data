@@ -11,7 +11,7 @@ const headerTransformDictionary: {[key: string]: string} = {
 
 class AdDashboardApiService {
     getData(): Promise<AdDashboardDataResponse> {
-        const requestUrl = "//adverity-challenge.s3-website-eu-west-1.amazonaws.com/DAMKBAoDBwoDBAkOBAYFCw.csv";
+        const requestUrl = require("./DAMKBAoDBwoDBAkOBAYFCw.csv");
 
         return new Promise((resolve, reject) => {
             Papa.parse(requestUrl, {
