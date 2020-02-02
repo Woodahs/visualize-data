@@ -21,7 +21,10 @@
     "recharts": "^2.0.0-beta.1",
     "typescript": "^3.7.5"
   },
+  "homepage": "http://woodahs.github.io/visualize-data",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   }
 }
